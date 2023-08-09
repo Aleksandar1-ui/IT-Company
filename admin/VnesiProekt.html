@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+html {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #222 url(https://i.cloudup.com/B-nGjfTv8k.jpg) no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://i.cloudup.com/B-nGjfTv8k.jpg);  
+  background-size: cover;
+}
+.bri{
+background-color: #b33c00;
+  opacity:0.9;
+  border: none;
+  color: white;
+  padding: 14px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:12px;
+}
+.mydiv{
+margin:200px;
+}
+</style>
+</head>
+<body>
+<div class="mydiv">
+<p align="center" style="color:white; font-size:30px;"><strong>Внесување на проект</strong></p><br><br> 
+<form method="post" action="vnesipr.php">
+<table border='0' align='center' style='color:white; font-size:20px;' height='40%'>
+<tr>
+<td><p style='color:white; font-size:20px;'>Внеси име на проект :</p></td>
+<td><input type="text" name="imepr" id="imepr"></td>
+</tr>
+<tr>
+<td><p style='color:white; font-size:20px;'>Технологии :</p></td>
+<td><input type="text" name="tehpr" id="tehpr"></td>
+</tr>
+<tr><td></td>
+<td><input type="submit" name="ok" id="ok" value="Внеси" class="bri"></td>
+</table>
+</form>
+</div>
+</body>
+</html>

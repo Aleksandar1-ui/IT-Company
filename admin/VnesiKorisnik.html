@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+html {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #222 url(https://i.cloudup.com/B-nGjfTv8k.jpg) no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://i.cloudup.com/B-nGjfTv8k.jpg);  
+  background-size: cover;
+}
+.bri{
+background-color: #b33c00;
+  opacity:0.9;
+  border: none;
+  color: white;
+  padding: 14px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:12px;
+}
+</style>
+</head>
+<body>
+<p align="center" style="color:white; font-size:30px;"><strong>Внесување на корисник</strong></p><br><br> 
+<form method="post" action="vnes.php">
+<table border='0' align='center' style='color:white; font-size:20px;' height='60%'>
+<tr>
+<td><p style='color:white; font-size:20px;'>Внеси Име :</p></td>
+<td><input type="text" name="ime" id="ime"></td>
+</tr>
+<tr>
+<td><p style='color:white; font-size:20px;'>Внеси Презиме :</p></td>
+<td><input type="text" name="prez" id="prez"></td>
+</tr>
+<tr>
+<td><p style='color:white; font-size:20px;'>Внеси Е-mail :</p></td>
+<td><input type="text" name="mail" id="mail"></td>
+</tr>
+<tr>
+<td><p style='color:white; font-size:20px;'>Внеси Username :</p></td>
+<td><input type="text" name="usr" id="usr"></td>
+</tr>
+<tr>
+<td><p style='color:white; font-size:20px;'>Внеси Password :</p></td>
+<td><input type="password" name="pass" id="pass"></td>
+</tr>
+<tr>
+<td><p style='color:white; font-size:20px;'>Внеси Дознавање :</p></td>
+<td><input type="text" name="doz" id="doz"></td>
+</tr>
+<tr><td></td>
+<td><input type="submit" name="ok" id="ok" value="Внеси" class="bri"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
